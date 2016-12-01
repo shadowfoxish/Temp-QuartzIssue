@@ -14,10 +14,10 @@ Quartz.JobPersistenceException: Couldn't store job: Unable to store Job: 'DEFAUL
    at Quartz.Impl.AdoJobStore.JobStoreSupport.StoreJobAndTrigger(IJobDetail newJob, IOperableTrigger newTrigger) in c:\Program Files (x86)\Jenkins\workspace\Quartz.NET\src\Quartz\Impl\AdoJobStore\JobStoreSupport.cs:line 853
    at Quartz.Core.QuartzScheduler.ScheduleJob(IJobDetail jobDetail, ITrigger trigger) in c:\Program Files (x86)\Jenkins\workspace\Quartz.NET\src\Quartz\Core\QuartzScheduler.cs:line 718
    at Quartz.Impl.StdScheduler.ScheduleJob(IJobDetail jobDetail, ITrigger trigger) in c:\Program Files (x86)\Jenkins\workspace\Quartz.NET\src\Quartz\Impl\StdScheduler.cs:line 262
-   at QuartzJobRunner.MyService.ConfigureJob() in c:\users\khatcher\documents\visual studio 2015\Projects\QuartzJobRunner\QuartzJobRunner\Program.cs:line 111
-   at QuartzJobRunner.MyService.SettingsCache_SettingsCacheFileChanged(Object sender, EventArgs e) in c:\users\khatcher\documents\visual studio 2015\Projects\QuartzJobRunner\QuartzJobRunner\Program.cs:line 117
-   at QuartzJobRunner.SettingsCache.NotifyEvent(Object sender) in c:\users\khatcher\documents\visual studio 2015\Projects\QuartzJobRunner\QuartzJobRunner\Program.cs:line 152
-   at QuartzJobRunner.SettingsCache.<>c.<.cctor>b__6_0(Object s, FileSystemEventArgs e) in c:\users\khatcher\documents\visual studio 2015\Projects\QuartzJobRunner\QuartzJobRunner\Program.cs:line 159
+   at QuartzJobRunner.MyService.ConfigureJob() in c:\users\user\documents\visual studio 2015\Projects\QuartzJobRunner\QuartzJobRunner\Program.cs:line 111
+   at QuartzJobRunner.MyService.SettingsCache_SettingsCacheFileChanged(Object sender, EventArgs e) in c:\users\user\documents\visual studio 2015\Projects\QuartzJobRunner\QuartzJobRunner\Program.cs:line 117
+   at QuartzJobRunner.SettingsCache.NotifyEvent(Object sender) in c:\users\user\documents\visual studio 2015\Projects\QuartzJobRunner\QuartzJobRunner\Program.cs:line 152
+   at QuartzJobRunner.SettingsCache.<>c.<.cctor>b__6_0(Object s, FileSystemEventArgs e) in c:\users\user\documents\visual studio 2015\Projects\QuartzJobRunner\QuartzJobRunner\Program.cs:line 159
    at System.IO.FileSystemWatcher.OnChanged(FileSystemEventArgs e)
    at System.IO.FileSystemWatcher.NotifyFileSystemEventArgs(Int32 action, String name)
    at System.IO.FileSystemWatcher.CompletionStatusChanged(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* overlappedPointer)
